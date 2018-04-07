@@ -44,12 +44,15 @@ margin-top: 33px;
 font-size: 18px;
 outline: none;
 cursor: pointer;
+-webkit-transition: 0.2s;
+-o-transition: 0.2s;
+transition: 0.2s;
 
 
 }
 
 .header-button:hover{
-	box-shadow: 10px 17px 34px 6px #3a7dfd;
+	box-shadow: none;
 	 
 	
 }
@@ -185,6 +188,9 @@ footer{
 	outline: none;
 	cursor: pointer;
 	text-decoration: none;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 .footer-button:hover{
